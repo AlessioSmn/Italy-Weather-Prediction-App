@@ -3,6 +3,7 @@
 ## Database Structure
 
 ### Document Database
+```json
 {
     Italy province capitals: {
         Weather informations
@@ -11,8 +12,9 @@
         users information
     }
 }
-
+```
 ### Graph Database
+```json
 Entity == city; attributes: {
     name, 
     lat and long, 
@@ -21,7 +23,12 @@ Entity == city; attributes: {
     population (only for pollution purposes),
     redundant: avg temp, avg rainfall...; 
 }
-
+Realations: {
+    Distance (static),
+    Similarity in weather: normalized CoV 0-1 (dynamic),
+    More ideas: avg windflow direction and intensity,
+}
+```
 ### Apis to use
 
 OpenMeteo historical data: https://open-meteo.com/en/docs/historical-weather-api
