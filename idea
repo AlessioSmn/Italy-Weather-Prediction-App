@@ -20,3 +20,15 @@ api: https://open-meteo.com/en/docs/historical-weather-api
 Velocity - Variability
 
 city == station
+
+actors: user - guest - admin
+
+store, analyse and predict 
+
+functional: get data and show data to users, giving the users predictions
+non-functional: perfomance (multi-threads, async api calls), security (authenticate, authorize),
+
+analysis classes: city, measure(temp, rainfall, ...), user, geographical_relation
+
+
+
