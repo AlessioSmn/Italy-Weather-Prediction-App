@@ -103,7 +103,7 @@
           <mxGeometry x="-480" y="-480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_bq464Kxq-2n_JhR32WJ-29" value="0...*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="-460" width="60" height="30" as="geometry" />
+          <mxGeometry x="-340" y="-450" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8LZbqdLIqy8Ak0c2T1Xg-32" value="City" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-280" y="-520" width="200" height="132" as="geometry" />
