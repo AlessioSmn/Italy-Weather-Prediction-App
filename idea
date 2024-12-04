@@ -1,4 +1,4 @@
-Weather nosql database
+Weather nosql database (store, analyse and predict )
 
 Document DB 
 {
@@ -18,8 +18,6 @@ https://archive-api.open-meteo.com/v1/archive?latitude=40.7143&longitude=-74.006
 Velocity - Variability
 
 city == station
-
-store, analyse and predict 
 
 functional: get data and show data to users, giving the users predictions
 non-functional: perfomance (multi-threads, async api calls), security (authenticate, authorize),
