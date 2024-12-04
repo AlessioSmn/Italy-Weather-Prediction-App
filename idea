@@ -11,17 +11,13 @@ Graph DB
         redundancy: avg temp, avg rainfall...; extreme weather risk)
     edges: neighborhood relation (Distance fixed, Similarity in weather: normalized CoV 0-1, avg windflow direcction-intensity it's an idea)
 }
-JAVA
 
 api: https://open-meteo.com/en/docs/historical-weather-api
-    
-    https://archive-api.open-meteo.com/v1/archive?latitude=40.7143&longitude=-74.006&start_date=2010-01-01&end_date=2020-01-01&hourly=temperature_2m,precipitation,rain,cloud_cover
+https://archive-api.open-meteo.com/v1/archive?latitude=40.7143&longitude=-74.006&start_date=2010-01-01&end_date=2020-01-01&hourly=temperature_2m,precipitation,rain,cloud_cover
 
 Velocity - Variability
 
 city == station
-
-actors: user - guest - admin
 
 store, analyse and predict 
 
@@ -30,5 +26,8 @@ non-functional: perfomance (multi-threads, async api calls), security (authentic
 
 analysis classes: city, measure(temp, rainfall, ...), user, geographical_relation
 
+Extreme Weather Event
+Category:
+    Heat wave(max temp), Cold wave (min temp and wind), hurricane (wind), storm (rain), snowstorm (snow)
 
 
